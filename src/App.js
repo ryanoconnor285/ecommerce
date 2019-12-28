@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 
 import './App.css';
 
+import AuthPage from "./pages/auth/auth.component.jsx"
 import HomePage from "./pages/homepage/homepage.component.jsx"
 import ShopPage from "./pages/shop/shop.component.jsx"
 import Header from "./components/header/header.component.jsx";
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/shop' component={ShopPage} />
+        <Route path='/sign-in' component={AuthPage} />
       </Switch>
     </div>
   );
