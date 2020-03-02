@@ -17,7 +17,6 @@ I have studied various metalworking techniques over the years combining these wi
 My Jewelry is designed and handcrafted with passion, to create wearable art to be enjoyed for years to come.</p>
       <h2>- Lynell</h2>
       <img src={image1} alt="necklace" className="product-image"/>
-      <span>Sterling Silver & Copper Cuff</span>
       <img src={image2} alt="cuff" className="product-image"/>
       <img src={image3} alt="necklace" className="product-image"/>
     </div>
