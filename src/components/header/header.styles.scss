@@ -24,4 +24,17 @@
       }
     }
   }
+
+@media only screen and (max-width: 600px) {
+  .header {
+    .options {
+      padding: 10px 5px;
+      width: 60%;
+      .option {
+        padding: 10px 8px;
+        cursor: pointer;
+      }
+    }
+  }
+}
   
